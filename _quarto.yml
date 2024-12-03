@@ -7,16 +7,16 @@ project:
 website:  
   repo-url: https://github.com/coatless-quarto/r-shinylive-demo
   repo-actions: [edit, issue]
-  title: "r-shinylive in Quarto"
+  title: "Homepage"
   navbar:
     search: false
     left:
-      - text: "Tutorial (Home)"
-        file: index.qmd
-      - text: "Joe's Shiny App"
-        file: R-shinylive-demo.qmd
-      - text: "Skeletal Template"
+      - text: "Background: Residential Seggregation"
         file: template-r-shinylive.qmd
+      - text: "MSP: Environmental Injustice"
+        file: index.qmd
+      - text: "Why Urban Green Spaces"
+        file: R-shinylive-demo.qmd
 
 format:
   html:
@@ -25,4 +25,6 @@ format:
       sidebar-width: 200px
       margin-width: 200px
     toc: true
+    theme:
+      - custom.css
 
